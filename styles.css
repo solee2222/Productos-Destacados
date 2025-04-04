@@ -4,16 +4,19 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #ffc1e3; 
-    color: #ffffff; 
+    color: #000000; 
     text-align: center;
+    padding:20px; /*DevTools*/
+    display: flex; /*DevTools*/
+    justify-content: center; /*DevTools*/
+    align-items: center; /*DevTools*/
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2rem;
+    margin: 0; /*DevTools*/
+    font-size: 2.5rem; /*DevTools*/
 }
 
 
@@ -21,11 +24,11 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 70px; /*DevTools*/
 }
 
 nav a {
-    color: #ffffff;
+    color: #382929;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -40,8 +43,7 @@ nav a:hover {
     display: flex; 
     justify-content: space-around; 
     align-items: flex-start;
-    padding: 2rem;
-    gap: 1.5rem;
+    padding: 2rem; /*DevTools*/
 }
 
 .product-card {
@@ -59,12 +61,12 @@ nav a:hover {
 }
 
 .product-card h3 {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0; /*DevTools*/
     color: #ff69b4; 
 }
 
 .product-card p {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0; /*DevTools*/
     color: #666; 
 }
 
@@ -78,7 +80,7 @@ nav a:hover {
     background-color: #ff69b4; 
     color: #ffffff; 
     border: none;
-    padding: 10px 20px;
+    padding: 10px 20px; /*DevTools*/
     border-radius: 5px;
     cursor: pointer;
 }
@@ -90,8 +92,8 @@ nav a:hover {
 
 footer {
     background-color: #ffc1e3;
-    color: #ffffff; 
+    color: #000000; 
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 20px; /*DevTools*/
+    margin-top: 20px; /*DevTools*/
 }
